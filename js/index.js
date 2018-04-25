@@ -1,7 +1,8 @@
 var count = 0;
 var love = setInterval(function() {
     if(count === 30) {
-        return;
+        $('.heart').remove();
+        clearInterval(love);
     }
     console.log(count);
     count++;
