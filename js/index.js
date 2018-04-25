@@ -1,4 +1,9 @@
+var count = 0;
 var love = setInterval(function() {
+    if(count === 1000) {
+        return;
+    }
+    count++;
     var r_num = Math.floor(Math.random() * 40) + 1;
     var r_size = Math.floor(Math.random() * 65) + 10;
     var r_left = Math.floor(Math.random() * 100) + 1;
@@ -17,3 +22,5 @@ var love = setInterval(function() {
         }
     });
 }, 500);
+
+$('.bg_heart').append("<div class='heart' style='width: 200px; height:200px; background:rgba(255,0,0,1);'>Happy 18th Birthday, My Love</div>");
