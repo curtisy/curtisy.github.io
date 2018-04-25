@@ -3,6 +3,7 @@ var love = setInterval(function() {
     if(count === 30) {
         $('.heart').remove();
         clearInterval(love);
+        $('.bg_heart').append("<div class='heart' style='width: 200px; height:200px; background:rgba(255,0,0,1);'>Happy 18th Birthday, My Love</div>");
     }
     console.log(count);
     count++;
@@ -24,5 +25,3 @@ var love = setInterval(function() {
         }
     });
 }, 500);
-
-$('.bg_heart').append("<div class='heart' style='width: 200px; height:200px; background:rgba(255,0,0,1);'>Happy 18th Birthday, My Love</div>");
