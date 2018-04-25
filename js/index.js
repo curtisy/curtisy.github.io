@@ -5,7 +5,7 @@ var love = setInterval(function() {
         $('.heart').remove();
         clearInterval(love);
         $('.heartOuter').show();
-        $('.heartOuter').css({position: "relative", margin: "0px auto", width: "200px", height: "200px"});
+        $('.heartOuter').css({position: "relative", margin: "0px auto", width: "200px", height: "200px", top: "300px"});
         $('.heartInner').css({position: "absolute", top: "4%", left: "12.5%", width: "75%", height: "75%", transform: "rotate(-45deg)"});
         $('.heartSquare').css({position: "absolute", top: "25%", left: "0px", width: "75%", height: "75%", background: "red"});
         $('.heartHalfCircle1').css({position: "absolute", top: "-15%", left: "0px", width: "75%", height: "75%", "border-radius": "100% 100% 0 0", background: "red"});
