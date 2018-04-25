@@ -9,8 +9,8 @@ var love = setInterval(function() {
         $('.heartInner').css({position: "absolute", top: "4%", left: "4%", width: "75%", height: "75%", transform: "rotate(-45deg)"});
         $('.heartSquare').css({position: "absolute", top: "25%", left: "0px", width: "75%", height: "75%", background: "red"});
         $('.heartHalfCircle1').css({position: "absolute", top: "-15%", left: "0px", width: "75%", height: "75%", "border-radius": "100% 100% 0 0", transform: "rotate(-45deg)"});
-        $('.heartHalfCircle1').css({position: "absolute", top: "25%", left: "40%", width: "75%", height: "75%", "border-radius": "0 100% 100% 0", background: "red"});
-        $('p').css({position: "relative", top: "67px", left: "50px", "z-index": "200000000"});
+        $('.heartHalfCircle2').css({position: "absolute", top: "25%", left: "40%", width: "75%", height: "75%", "border-radius": "0 100% 100% 0", background: "red"});
+        $('p').css({position: "relative", top: "67px", left: "50px", "z-index": "200000"});
     }
     console.log(count);
     count++;
