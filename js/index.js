@@ -1,6 +1,6 @@
 var count = 0;
 var love = setInterval(function() {
-    if(count === 1000) {
+    if(count === 100) {
         return;
     }
     console.log(count);
