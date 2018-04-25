@@ -44,6 +44,56 @@ html,body{
     border-radius: 100%;
 }
 
+.heartOuter{
+  position: relative;
+  margin: 0px auto;
+  /* change size start */
+  width: 200px;
+  height: 200px;
+  /* change size end */
+}
+.heartInner{
+  position: absolute;
+  top: 4%;
+  left: 12.5%;
+  width: 75%;
+  height: 75%;
+  transform: rotate(-45deg);
+}
+.heartSquare{
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  width: 75%;
+  height: 75%;
+  background: red;
+}
+.heartHalfCircle1{
+  position: absolute;
+  top: -15%;
+  left: 0px;
+  width: 75%;
+  height: 75%;
+  border-radius: 100% 100% 0 0;
+  background: red;
+}
+.heartHalfCircle2{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 75%;
+  height: 75%;
+  border-radius: 0 100% 100% 0;
+  background: red;
+}
+
+.p{
+  position: relative;
+  top: 67px;
+  left: 50px;
+  z-index: 1000000;
+}
+
 @-webkit-keyframes love {
   0%{top:110%}
 }
