@@ -3,6 +3,7 @@ var love = setInterval(function() {
     if(count === 1000) {
         return;
     }
+    console.log(count);
     count++;
     var r_num = Math.floor(Math.random() * 40) + 1;
     var r_size = Math.floor(Math.random() * 65) + 10;
